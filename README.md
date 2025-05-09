@@ -19,7 +19,7 @@
   <li>Kullanıcılar sipariş verebilir, ödeme yapabilir ve sipariş durumlarını takip edebilirler.</li>
 </ul>
 
-<h3>XML Entegrasyonu WinForm Uygulaması</h3>
+<h3>XML Entegrasyonu için WinForm Uygulaması</h3>
 <ul>
   <li>Üretilen salçalar, XML formatında export edilebilir.</li>
   <li>XML dosyası, e-ticaret sistemine entegre edilmek üzere gönderilebilir.</li>
