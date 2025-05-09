@@ -6,39 +6,6 @@ Salça E-Ticaret Satış Sistemi: Kullanıcıların salça ürünlerini satın a
 XML Entegrasyonu: Üretilen salçaların XML formatında e-ticaret sistemine gönderilmesini sağlayan bir entegrasyon uygulaması.
 Bu proje, salça satışlarının kolayca yönetilmesini ve ürün verilerinin doğru bir şekilde sistemlere aktarılmasını amaçlar.
 
-Kurulum (Installation)
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
-
-Gereksinimler (Requirements)
-.NET 6.0 (veya projenin gerektirdiği başka bir sürüm)
-Visual Studio (ya da benzer bir IDE)
-Veritabanı (SQL Server veya başka bir tercih edilen veritabanı)
-
-Adımlar:
-Projeyi Klonlayın:
-
-bash
-Kopyala
-Düzenle
-git clone https://github.com/kullanici-adi/salca-eticanet.git
-Gerekli Bağımlılıkları Yükleyin:
-Eğer .NET tabanlı bir projeyse, terminal üzerinden şu komutu kullanarak bağımlılıkları yükleyin:
-
-bash
-Kopyala
-Düzenle
-dotnet restore
-Veritabanı Bağlantılarını Yapın:
-appsettings.json dosyasındaki veritabanı ayarlarını kendi ortamınıza göre yapılandırın.
-
-Projenizi Çalıştırın:
-
-bash
-Kopyala
-Düzenle
-dotnet run
-ya da Visual Studio kullanıyorsanız, IDE üzerinden çalıştırabilirsiniz.
-
 Kullanım (Usage)
 E-Ticaret Sistemi:
 Ürünlerinizi ekleyebilir, kullanıcılar salça satın alabilir.
@@ -60,5 +27,5 @@ Bu proje, MIT lisansı altında lisanslanmıştır. Lisans metni için ilgili do
 
 Geliştiriciler (Authors)
 Proje Sahibi: [Volkan Şener]
-Katkı Sağlayanlar: AI Tools(ChatGPT...)
+Katkı Sağlayanlar: ChatGPT
 
