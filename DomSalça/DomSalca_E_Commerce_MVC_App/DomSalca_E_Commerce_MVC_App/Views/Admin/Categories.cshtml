@@ -1,0 +1,110 @@
+﻿@model List<DomSalca_E_Commerce_MVC_App.DAL.Tbl_Category>
+
+@{
+    ViewBag.Title = "Categories";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container-fluid px-4">
+            <ol class="breadcrumb mb-4">
+                <li class="breadcrumb-item"><a href="@Url.Action("Dashboard", "Admin")">Yönetim Paneli</a></li>
+                <li class="breadcrumb-item active">Kategoriler</li>
+            </ol>
+
+            <div class="card mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fas fa-table me-1"></i>
+                        Kategori Detayları
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#updateCategoryModal">
+                            + Yeni Kategori Ekle
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <form method="post" action="@Url.Action("CategoryDelete", "Admin")">
+                        <table id="datatablesSimple" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th><input type="checkbox" id="selectAll" /></th>
+                                    <th>Seri Numarası</th>
+                                    <th>Kategori Adı</th>
+                                    <th>Eylem</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="categoryIds" value="@item.CategoryID" />
+                                        </td>
+                                        <td>@(Model.IndexOf(item) + 1)</td>
+                                        <td>@item.CategoryName</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-warning" href="@Url.Action("UpdateCategory", "Admin", new { CategoryID = item.CategoryID })">Düzenle</a>
+                                            
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div class="d-flex justify-content-end mt-3">
+                            <input type="checkbox" name="isHardDelete" value="true" class="me-2" id="hardDelete" />
+                            <label for="hardDelete" class="me-3">Kalıcı olarak sil</label>
+                            <button type="submit" class="btn btn-danger">Seçilenleri Sil</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Kategori Ekle Modalı -->
+<div class="modal fade" id="updateCategoryModal" tabindex="-1" role="dialog" aria-labelledby="updateCategoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateCategoryModalLabel">Kategori Ekle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                @using (Html.BeginForm("SaveCategory", "Admin", FormMethod.Post, new { @id = "addCategoryForm" }))
+                {
+                    @Html.Hidden("CategoryID", 0)
+
+                    <div class="form-group mb-3">
+                        <label>Kategori Adı</label>
+                        @Html.TextBox("CategoryName", null, new { @class = "form-control", placeholder = "Kategori adını girin", required = "required" })
+                    </div>
+
+                    <div class="form-group text-end">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal çalışması için jQuery ve Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    $("#selectAll").click(function () {
+        $("input[name='categoryIds']").prop('checked', this.checked);
+    });
+</script>

@@ -1,0 +1,64 @@
+﻿@model DomSalca_E_Commerce_MVC_App.Models.ManageLoginsViewModel
+@{
+    ViewBag.Title = "Giriş Yöntemleri";
+}
+
+<h2>Giriş Yöntemleri</h2>
+
+@if ((bool)ViewBag.ShowRemoveButton)
+{
+    <p>Mevcut giriş yöntemlerinizi kaldırabilirsiniz:</p>
+}
+else
+{
+    <p>Parola ayarlanmadı veya yalnızca tek bir sosyal ağ bağlı. Kaldırma yapılamıyor.</p>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mevcut Girişler</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var login in Model.CurrentLogins)
+        {
+            <tr>
+                <td>@login.LoginProvider</td>
+                <td>
+                    @using (Html.BeginForm("RemoveLogin", "Manage", FormMethod.Post, new { @class = "d-inline" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("loginProvider", login.LoginProvider)
+                        @Html.Hidden("providerKey", login.ProviderKey)
+                        <button type="submit" class="btn btn-sm btn-danger">Kaldır</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<h3>Yeni Giriş Bağla</h3>
+<p>Başka bir sosyal ağ hesabıyla giriş yapmak için:</p>
+
+@using (Html.BeginForm("LinkLogin", "Manage", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <ul class="list-unstyled">
+        @foreach (var provider in Model.OtherLogins)
+        {
+            <li>
+                <button type="submit"
+                        name="provider"
+                        value="@provider.AuthenticationType"
+                        class="btn btn-outline-primary btn-sm">
+                    Bağla: @provider.Caption
+                </button>
+            </li>
+        }
+    </ul>
+}

@@ -1,0 +1,40 @@
+﻿@model List<DomSalca_E_Commerce_MVC_App.DAL.Tbl_Order>
+@{
+    ViewBag.Title = "Siparişler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";  // admin layout yolunuza göre ayarlayın
+}
+
+<h1 class="mt-4">Siparişler</h1>
+<hr />
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>OrderID</th>
+            <th>Ad Soyad</th>
+            <th>Adres</th>
+            <th>Ödeme Türü</th>
+            <th>Tarih</th>
+            <th>Detay</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>@o.OrderID</td>
+                <td>@o.FullName</td>
+                <td>@o.Address</td>
+                <td>@o.PaymentMethod</td>
+                <td>@o.OrderDate.ToString("g")</td>
+                <td>
+                    <a class="btn btn-sm btn-info"
+                       href="@Url.Action("OrderDetails", "Admin", new { id = o.OrderID })">
+                        Görüntüle
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*@Styles.Render("~/Content/css")*@
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/MyMainLayout.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        .list-social {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+        }
+
+            .list-social li {
+                margin: 0 10px;
+            }
+
+            .list-social i {
+                font-size: 29px; /* İkon boyutunu istediğin gibi ayarlayabilirsin */
+            }
+
+        .account ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sepet-link {
+            font-size: 18px;
+            font-weight: 600;
+            color: #d9534f;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+            .sepet-link:hover {
+                color: #b52b27;
+            }
+
+        .logo h1 {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo h1 img {
+                margin-right: 10px;
+            }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="logo">
+
+
+                    <h1><a href="#"><img src="~/Images/Domsalça.png" alt="Domates Icon" style="width: 75px; height: 75px; border-radius:45%; vertical-align: middle; margin-right: 10px;" />DOMSALÇA <span>ALIŞVERİŞ MAĞAZASI</span></a></h1>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-6 d-flex justify-content-end align-items-center">
+                <div class="account text-end">
+                    <ul class="nav list-inline m-0">
+                        <li class="nav-item">
+                            <a class="nav-link sepet-link" href="/Cart/Index">
+                                <i class="fas fa-shopping-cart"></i> Sepetim
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nav-menus">
+                        <nav class="nav nav-pills">
+                            <li class="nav-item"><a class="nav-link" href="@Url.Action("Index","Home")">Anasayfa</a></li>
+                            <li class="nav-item"><a class="nav-link" href="@Url.Action("Location","Home")">Konum</a></li>
+                            <li class="nav-item"><a class="nav-link" href="@Url.Action("About","Home")">Hakkımızda</a></li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="row copyright">
+                <div class="col-md-6 col-sm-6 copyright-left">
+                    <p>&copy; @DateTime.Now.Year Domsalça Satış Tic.A.Ş Her Hakkı Saklıdır.</p>
+                </div>
+
+                <div class="col-md-6 col-sm-6 copyright-right">
+                    <ul class="list-unstyled list-social">
+                        <li><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="bi bi-google"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+
+</body>
+</html>

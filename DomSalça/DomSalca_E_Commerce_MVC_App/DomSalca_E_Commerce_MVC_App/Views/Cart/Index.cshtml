@@ -1,0 +1,127 @@
+﻿@model List<DomSalca_E_Commerce_MVC_App.Models.CartItem>
+@{
+    ViewBag.Title = "Sepetim";
+}
+
+<h2>Sepetim</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Sepetinizde ürün bulunmuyor.</div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Ürün</th>
+                <th>Birim Fiyat</th>
+                <th>Adet</th>
+                <th>Toplam</th>
+                <th>İşlem</th>
+            </tr>
+        </thead>
+        <tbody id="cart-body">
+            @foreach (var item in Model)
+            {
+                <tr data-id="@item.ProductId">
+                    <td>
+                        <img src="@Url.Content(item.ProductImage)" width="60" height="60" style="object-fit:cover; margin-right:8px;" />
+                        @item.ProductName
+                    </td>
+                    <td class="unit-price">@item.Price.ToString("0.00")</td>
+                    <td>
+                        <input type="number" class="form-control qty-input" value="@item.Quantity" min="1" style="width:80px;" />
+                    </td>
+                    <td class="row-total">@((item.Price * item.Quantity).ToString("0.00"))</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary update-qty">Güncelle</button>
+                        <button class="btn btn-sm btn-danger remove-item">Sil</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-end"><strong>Genel Toplam</strong></td>
+                <td id="cart-total"><strong>@Model.Sum(x => x.Price * x.Quantity).ToString("0.00")</strong></td>
+                <td>
+                    <a href="@Url.Action("Checkout", "Cart")" class="btn btn-success">Ödeme Yap</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+}
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const cartBody = document.getElementById("cart-body");
+            const cartTotalEl = document.getElementById("cart-total");
+
+            function recalcCartTotal() {
+                let total = 0;
+                document.querySelectorAll("#cart-body tr").forEach(row => {
+                    const rowTotal = parseFloat(row.querySelector(".row-total").textContent);
+                    total += rowTotal;
+                });
+                cartTotalEl.textContent = total.toFixed(2);
+            }
+
+            // Miktar güncelle
+            cartBody.querySelectorAll(".update-qty").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    const row = btn.closest("tr");
+                    const id = row.dataset.id;
+                    const qty = row.querySelector(".qty-input").value;
+
+                    fetch('/Cart/UpdateQuantity', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id: parseInt(id), qty: parseInt(qty) })
+                    })
+                        .then(r => r.json())
+                        .then(res => {
+                            if (res.success) {
+                                // Satır toplamını güncelle
+                                const unitPrice = parseFloat(row.querySelector(".unit-price").textContent);
+                                row.querySelector(".row-total").textContent = (unitPrice * qty).toFixed(2);
+                                recalcCartTotal();
+                                alert("Adet güncellendi.");
+                            } else {
+                                alert("Güncelleme hatası");
+                            }
+                        });
+                });
+            });
+
+            // Ürünü sil
+            cartBody.querySelectorAll(".remove-item").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    const row = btn.closest("tr");
+                    const id = row.dataset.id;
+
+                    if (!confirm("Bu ürünü sepetten silmek istediğinize emin misiniz?")) return;
+
+                    fetch('/Cart/RemoveFromCart', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id: parseInt(id) })
+                    })
+                        .then(r => r.json())
+                        .then(res => {
+                            if (res.success) {
+                                row.remove();
+                                recalcCartTotal();
+                                if (cartBody.children.length === 0) {
+                                    location.reload();
+                                }
+                            } else {
+                                alert("Silme hatası");
+                            }
+                        });
+                });
+            });
+        });
+    </script>
+}

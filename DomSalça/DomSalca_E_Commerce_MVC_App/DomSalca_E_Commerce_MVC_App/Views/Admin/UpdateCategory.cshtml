@@ -1,0 +1,43 @@
+﻿@model DomSalca_E_Commerce_MVC_App.Models.CategoryDetail
+
+@{
+    ViewBag.Title = "UpdateCategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container-fluid px-4">
+            <h1 class="mt-4">Tablolar</h1>
+            <ol class="breadcrumb mb-4">
+                <li class="breadcrumb-item"><a href="@Url.Action("Dashboard", "Admin")">Yönetim Paneli</a></li>
+                <li class="breadcrumb-item"><a href="@Url.Action("Categories", "Admin")">Kategoriler</a></li>
+                <li class="breadcrumb-item active">Kategori Ekle</li>
+            </ol>
+
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-table me-1"></i>
+                    Kategori Ekle
+                </div>
+
+                <div class="card-body">
+                    @using (Html.BeginForm("SaveCategory", "Admin", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(m => m.CategoryID)
+
+                        <div class="form-group mb-3">
+                            <label class="control-label">Kategori Adı</label>
+                            @Html.TextBoxFor(m => m.CategoryName, new { @class = "form-control", placeholder = "Kategori adını girin", required = "required", autofocus = "autofocus" })
+                        </div>
+
+                        <div class="form-group">
+                            <a href="@Url.Action("Categories", "Admin")" class="btn btn-danger">İptal</a>
+                            <input type="submit" class="btn btn-primary" value="Kaydet" />
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

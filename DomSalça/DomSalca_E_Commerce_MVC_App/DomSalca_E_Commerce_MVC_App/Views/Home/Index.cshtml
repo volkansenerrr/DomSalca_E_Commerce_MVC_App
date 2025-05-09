@@ -1,0 +1,121 @@
+﻿@model DomSalca_E_Commerce_MVC_App.Models.Home.HomeIndexViewModel
+@using PagedList;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Home Page";
+    var pageNumber = Request.QueryString["page"] != null ? Convert.ToInt32(Request.QueryString["page"]) : 1;
+    var pagedProducts = Model.ListofProducts.ToPagedList(pageNumber, 12);
+}
+
+<style>
+    /* Ürün görselleri için sabit yükseklik ve kırpma */
+    .product-img {
+        
+        width: 100%; /* Container genişliğini kaplasın */
+        object-fit: cover; /* Ortadan kırparak doldursun */
+    }
+</style>
+
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/Images/image1.jpg" alt="Görsel 1" />
+            <div class="carousel-caption">
+                <h3>Hoş Geldiniz</h3>
+                <p>En kaliteli ürünleri keşfedin</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/Images/image2.jpg" alt="Görsel 2" />
+            <div class="carousel-caption">
+                <h3>Yeni Ürünler</h3>
+                <p>Kampanyaları kaçırmayın!</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Geri</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">İleri</span>
+    </button>
+</div>
+
+<!-- Ürün Başlığı -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h2>Ürünlerimiz</h2>
+        </div>
+    </div>
+</div>
+
+<!-- Ürünler -->
+<div class="row product-container">
+    @foreach (var item in pagedProducts)
+    {
+        <div class="col-lg-2 col-md-3 col-sm-6 mb-4">
+            <div class="card h-100">
+                <img src="@Url.Content(item.ProductImage)" class="card-img-top product-img" alt="@item.ProductName" />
+                <div class="card-body">
+                    <h5 class="card-title">@item.ProductName</h5>
+                    <p class="card-text">@item.Price ₺</p>
+                    <p class="card-text text-muted">
+                        @(item.Quantity > 0 ? "Mevcut" : "Mevcut Değil")
+                    </p>
+                    <span class="badge @(item.IsFeatured == true ? "bg-success" : "bg-secondary")">
+                        @(item.IsFeatured == true ? "Yeni" : "Eski")
+                    </span>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary add-to-cart-btn mt-2" data-product-id="@item.ProductID">
+                        <i class="fas fa-shopping-cart"></i> Sepete Ekle
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+<!-- Sayfalama -->
+@Html.PagedListPager(pagedProducts, page => Url.Action("Index", new { page, search = Request.QueryString["search"] }),
+    new PagedListRenderOptions { Display = PagedListDisplayMode.IfNeeded, DisplayItemSliceAndTotal = true })
+
+<script>
+    const myCarousel = document.querySelector('#myCarousel');
+    if (myCarousel) {
+        new bootstrap.Carousel(myCarousel, {
+            interval: 10000,
+            ride: 'carousel'
+        });
+    }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".add-to-cart-btn").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const id = btn.dataset.productId;
+                fetch('/Cart/AddToCart', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ id })
+                })
+                    .then(r => r.json())
+                    .then(res => {
+                        if (res.success) {
+                            alert(res.message + " (Sepette: " + res.cartCount + " ürün)");
+                        } else {
+                            alert("Hata: " + res.message);
+                        }
+                    })
+                    .catch(e => console.error(e));
+            });
+        });
+    });
+</script>

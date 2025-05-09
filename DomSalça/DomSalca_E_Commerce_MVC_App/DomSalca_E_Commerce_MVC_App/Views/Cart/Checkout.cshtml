@@ -1,0 +1,115 @@
+﻿@model List<DomSalca_E_Commerce_MVC_App.Models.CartItem>
+
+@{
+    ViewBag.Title = "Sipariş";
+}
+
+<h2>Sipariş Özeti</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Sepetiniz boş. <a href="@Url.Action("Index", "Home")">Alışverişe devam et</a>.
+    </div>
+}
+else
+{
+    <table class="table table-bordered mb-4">
+        <thead>
+            <tr>
+                <th>Ürün</th>
+                <th>Adet</th>
+                <th>Fiyat</th>
+                <th>Toplam</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price ₺</td>
+                    <td>@(item.Price * item.Quantity) ₺</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Genel Toplam</strong></td>
+                <td><strong>@Model.Sum(x => x.Price * x.Quantity) ₺</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h4>Bilgilerinizi Girin</h4>
+
+    <form asp-action="Checkout" asp-controller="Cart" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="mb-3">
+            <label for="fullName" class="form-label">Ad Soyad</label>
+            <input type="text" id="fullName" name="fullName" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="address" class="form-label">Adres</label>
+            <textarea id="address" name="address" class="form-control" rows="3" required></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="paymentMethod" class="form-label">Ödeme Yöntemi</label>
+            <select id="paymentMethod" name="paymentMethod" class="form-select" required>
+                <option value="">-- Seçiniz --</option>
+                <option value="Kredi Kartı">Kredi Kartı</option>
+                <option value="Kapıda Ödeme">Kapıda Ödeme</option>
+                <option value="Havale/EFT">Havale/EFT</option>
+            </select>
+        </div>
+
+        <div id="creditCardInfo" class="mt-3" style="display:none;">
+            <div class="mb-3">
+                <label for="cardNumber" class="form-label">Kart Numarası</label>
+                <input type="text" id="cardNumber" name="cardNumber" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label for="expiry" class="form-label">Son Kullanma Tarihi</label>
+                <input type="text" id="expiry" name="expiry" class="form-control" placeholder="AA/YY" />
+            </div>
+            <div class="mb-3">
+                <label for="cvc" class="form-label">Güvenlik Kodu (CVC)</label>
+                <input type="text" id="cvc" name="cvc" class="form-control" />
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success">Siparişi Tamamla</button>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const paymentSelect = document.getElementById("paymentMethod");
+            const cardInfoDiv = document.getElementById("creditCardInfo");
+            const cardNumber = document.getElementById("cardNumber");
+            const expiry = document.getElementById("expiry");
+            const cvc = document.getElementById("cvc");
+
+            function toggleCardFields() {
+                if (paymentSelect.value === "Kredi Kartı") {
+                    cardInfoDiv.style.display = "block";
+                    cardNumber.setAttribute("required", "required");
+                    expiry.setAttribute("required", "required");
+                    cvc.setAttribute("required", "required");
+                } else {
+                    cardInfoDiv.style.display = "none";
+                    cardNumber.removeAttribute("required");
+                    expiry.removeAttribute("required");
+                    cvc.removeAttribute("required");
+                }
+            }
+
+            paymentSelect.addEventListener("change", toggleCardFields);
+            toggleCardFields(); // Sayfa yüklendiğinde kontrol et
+        });
+    </script>
+
+}

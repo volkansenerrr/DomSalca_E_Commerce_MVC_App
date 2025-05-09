@@ -1,0 +1,35 @@
+﻿@model List<DomSalca_E_Commerce_MVC_App.DAL.Tbl_OrderDetail>
+@{
+    ViewBag.Title = "Sipariş Detayları";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";  // aynı layout
+}
+
+<h1 class="mt-4">Sipariş #@ViewBag.OrderID Detayları</h1>
+<hr />
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Ürün</th>
+            <th>Adet</th>
+            <th>Birim Fiyat</th>
+            <th>Toplam</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <td>@d.Tbl_Product.ProductName</td>
+                <td>@d.Quantity</td>
+                <td>@d.UnitPrice.ToString("N2") ₺</td>
+                <td>@(d.Quantity * d.UnitPrice).₺</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-secondary" href="@Url.Action("Orders","Admin")">
+    ‹‹ Geri
+</a>
+

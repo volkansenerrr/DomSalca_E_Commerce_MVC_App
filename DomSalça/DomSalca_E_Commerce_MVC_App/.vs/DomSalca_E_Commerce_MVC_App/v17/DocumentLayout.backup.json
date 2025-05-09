@@ -1,0 +1,597 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\home\\location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\home\\location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\admin\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\admin\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\app_start\\identityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\app_start\\identityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|c:\\users\\i-life\\onedrive\\desktop\\dosyalar\\domsal\u00E7a\\domsalca_e_commerce_mvc_app\\domsalca_e_commerce_mvc_app\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\admin\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\admin\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\admin\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\admin\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\admin\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\admin\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\manage\\managelogins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\manage\\managelogins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\categorydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\categorydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\repository\\genericunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\repository\\genericunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\dal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\dal\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\shopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\shopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\models\\home\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\models\\home\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\domsalca_e_commerce_mvc_app\\dal\\tbl_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4724DBFD-2653-48D1-8878-04BEA04A3C68}|DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App.csproj|solutionrelative:domsalca_e_commerce_mvc_app\\dal\\tbl_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\ProductEdit.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\ProductEdit.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\ProductEdit.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\ProductEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T00:36:23.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Orders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T00:36:26.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IdentitySeed.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\App_Start\\IdentitySeed.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\App_Start\\IdentitySeed.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\App_Start\\IdentitySeed.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\App_Start\\IdentitySeed.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T22:30:07.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\OrderDetails.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T19:14:14.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Location.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\Location.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\Location.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\Location.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\Location.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T16:22:45.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T22:29:08.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T11:02:20.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:37:50.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAiwDMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:41:14.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAADQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T22:38:45.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T04:48:25.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\UpdateCategory.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\UpdateCategory.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\UpdateCategory.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\UpdateCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T00:36:22.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T00:36:40.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T00:35:48.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageLogins.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Manage\\ManageLogins.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Manage\\ManageLogins.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Manage\\ManageLogins.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Manage\\ManageLogins.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T22:20:51.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Manage\\Index.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T22:45:10.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Product.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Product.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Product.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Admin\\Product.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T22:41:32.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:11:07.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T15:02:48.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\Home\\HomeIndexViewModel.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\Home\\HomeIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\Home\\HomeIndexViewModel.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\Home\\HomeIndexViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:49:55.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T22:48:04.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T22:56:51.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GenericUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Repository\\GenericUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Repository\\GenericUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Repository\\GenericUnitOfWork.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Repository\\GenericUnitOfWork.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:40:20.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryDetail.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\CategoryDetail.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\CategoryDetail.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\CategoryDetail.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\CategoryDetail.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T22:41:50.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T22:34:34.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ManageViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\ManageViewModels.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\ManageViewModels.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\ManageViewModels.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:41:10.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAiwDgBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:06:56.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Shopping.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\Shopping.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\Shopping.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\Shopping.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\Shopping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:41:17.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:41:16.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvw8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:40:14.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\DAL\\Model1.edmx",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\DAL\\Model1.edmx",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\DAL\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\DAL\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-08T18:36:23.759Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Tbl_Product.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\DAL\\Tbl_Product.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\DAL\\Tbl_Product.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\DAL\\Tbl_Product.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\DAL\\Tbl_Product.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA7wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:38:51.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\CartItem.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:46:47.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\Home\\Item.cs",
+              "RelativeDocumentMoniker": "DomSalca_E_Commerce_MVC_App\\Models\\Home\\Item.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomSalca_E_Commerce_MVC_App\\DomSalca_E_Commerce_MVC_App\\Models\\Home\\Item.cs",
+              "RelativeToolTip": "DomSalca_E_Commerce_MVC_App\\Models\\Home\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:45:54.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

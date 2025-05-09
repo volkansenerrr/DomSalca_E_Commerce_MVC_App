@@ -1,0 +1,47 @@
+﻿@model DomSalca_E_Commerce_MVC_App.Models.ExternalLoginListViewModel
+@using Microsoft.Owin;             <!-- OWIN uzantıları için -->
+@using Microsoft.Owin.Security;    <!-- AuthenticationDescription için -->
+
+<h4>Use another service to log in.</h4>
+<hr />
+@{
+    // Request.GetOwinContext() uzantısı HttpRequestBase üzerinde tanımlı
+    var loginProviders = Request
+        .GetOwinContext()
+        .Authentication
+        .GetExternalAuthenticationTypes();
+
+    if (!loginProviders.Any())
+    {
+        <div>
+            <p>
+                There are no external authentication services configured. See
+                <a href="https://go.microsoft.com/fwlink/?LinkId=403804" target="_blank">
+                    this article
+                </a>
+                for details on setting up this ASP.NET application to support logging in via external services.
+            </p>
+        </div>
+    }
+    else
+    {
+        using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            <div id="socialLoginList">
+                <p>
+                    @foreach (AuthenticationDescription p in loginProviders)
+                    {
+                        <button type="submit"
+                                class="btn btn-outline-dark me-2"
+                                name="provider"
+                                value="@p.AuthenticationType"
+                                title="Log in using your @p.Caption account">
+                            @p.AuthenticationType
+                        </button>
+                    }
+                </p>
+            </div>
+        }
+    }
+}

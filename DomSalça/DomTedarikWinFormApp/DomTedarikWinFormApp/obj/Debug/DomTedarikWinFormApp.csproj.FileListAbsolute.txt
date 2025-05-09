@@ -1,0 +1,10 @@
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\obj\Debug\DomTedarikWinFormApp.csproj.AssemblyReference.cache
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\obj\Debug\DomTedarikWinFormApp.Form1.resources
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\obj\Debug\DomTedarikWinFormApp.Properties.Resources.resources
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\obj\Debug\DomTedarikWinFormApp.csproj.GenerateResource.cache
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\obj\Debug\DomTedarikWinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\bin\Debug\DomTedarikWinFormApp.exe.config
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\bin\Debug\DomTedarikWinFormApp.exe
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\bin\Debug\DomTedarikWinFormApp.pdb
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\obj\Debug\DomTedarikWinFormApp.exe
+C:\Users\I-Life\OneDrive\Desktop\Dosyalar\DomSalça\DomTedarikWinFormApp\DomTedarikWinFormApp\obj\Debug\DomTedarikWinFormApp.pdb

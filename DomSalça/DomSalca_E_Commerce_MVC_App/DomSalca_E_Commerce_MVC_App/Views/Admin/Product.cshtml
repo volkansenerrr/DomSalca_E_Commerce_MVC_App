@@ -1,0 +1,133 @@
+﻿@model IEnumerable<DomSalca_E_Commerce_MVC_App.DAL.Tbl_Product>
+
+@{
+    ViewBag.Title = "Ürünler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container-fluid px-4">
+            <ol class="breadcrumb mb-4">
+                <li class="breadcrumb-item"><a href="@Url.Action("Dashboard", "Admin")">Yönetim Paneli</a></li>
+                <li class="breadcrumb-item active">Ürünler</li>
+            </ol>
+
+            <div class="card mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fas fa-table me-1"></i> Ürün Detayları
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal">
+                            + Yeni Ürün Ekle
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <table id="datatablesSimple" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Görsel</th>
+                                <th>Ürün Adı</th>
+                                <th>Fiyat</th>
+                                <th>Adet</th>
+                                <th>Açıklama</th>
+                                <th>Eylemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int count = 1;
+                                foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@count</td>
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(item.ProductImage))
+                                            {
+                                                <img src="@item.ProductImage" width="50" height="50" class="img-thumbnail" />
+                                            }
+                                            else
+                                            {
+                                                <span>Yok</span>
+                                            }
+                                        </td>
+                                        <td>@item.ProductName</td>
+                                        <td>@item.Price ₺</td>
+                                        <td>@item.Quantity</td>
+                                        <td>@item.Description</td>
+                                        <td>
+                                            <a href="@Url.Action("ProductEdit", "Admin", new { productID = item.ProductID })" class="btn btn-sm btn-warning">Düzenle</a>
+
+                                            @using (Html.BeginForm("ProductDelete", "Admin", FormMethod.Post, new { @class = "d-inline" }))
+                                            {
+                                                @Html.Hidden("productID", item.ProductID)
+                                                <label class="form-check-label mx-1">
+                                                    <input type="checkbox" name="isHardDelete" value="true" class="form-check-input" />
+                                                    Kalıcı
+                                                </label>
+                                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Bu ürünü silmek istediğine emin misin?');">Sil</button>
+                                            }
+
+                                        </td>
+                                    </tr>
+                                    count++;
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Yeni Ürün Ekle Modal -->
+<div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addProductModalLabel">Yeni Ürün Ekle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("ProductAdd", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="mb-3">
+                        @Html.Label("Ürün Adı", htmlAttributes: new { @class = "form-label" })
+                        @Html.TextBox("ProductName", null, new { @class = "form-control", required = "required" })
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.Label("Fiyat", htmlAttributes: new { @class = "form-label" })
+                        @Html.TextBox("Price", null, new { @class = "form-control", type = "number", step = "0.01", required = "required" })
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.Label("Adet (Quantity)", htmlAttributes: new { @class = "form-label" })
+                        @Html.TextBox("Quantity", null, new { @class = "form-control", type = "number", required = "required" })
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.Label("Açıklama", htmlAttributes: new { @class = "form-label" })
+                        @Html.TextArea("Description", null, new { @class = "form-control", rows = "3", required = "required" })
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.Label("Ürün Görseli", htmlAttributes: new { @class = "form-label" })
+                        <input type="file" name="ProductImageFile" class="form-control" required />
+                    </div>
+
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-success">Kaydet</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
