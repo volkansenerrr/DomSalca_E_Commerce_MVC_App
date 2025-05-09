@@ -6,7 +6,7 @@
 
 <ol>
   <li><strong>Salça E-Ticaret Satış Sistemi</strong>: Kullanıcıların salça ürünlerini satın alabileceği bir e-ticaret platformu.</li>
-  <li><strong>XML Entegrasyonu</strong>: Üretilen salçaların XML formatında e-ticaret sistemine aktarılmasını sağlayan bir entegrasyon uygulaması.</li>
+  <li><strong>XML Entegrasyonu</strong>: Üretilen salçaların XML formatında e-ticaret sistemine aktarılmasını sağlayan bir WinForm entegrasyon uygulaması.</li>
 </ol>
 
 <p>Bu proje, salça satışlarının kolayca yönetilmesini, kullanıcıların ürünleri rahatça satın alabilmesini ve ürün verilerinin doğru bir şekilde sistemlere aktarılmasını amaçlar.</p>
