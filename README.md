@@ -45,5 +45,5 @@
 
 <ul>
   <li><strong>Proje Sahibi</strong>: Volkan Şener</li>
-  <li><strong>Katkı Sağlayanlar</strong>: ChatGPT</li>
+  <li><strong>Katkı Sağlayanlar</strong>: AI Tools</li>
 </ul>
