@@ -9,26 +9,20 @@ namespace DomTedarikWinFormApp.Services
     {
         private List<Product> _products;
 
-        /// <summary>
-        /// ProductService varsayılan yapıcı.
-        /// </summary>
+        
         public ProductService()
         {
             _products = new List<Product>();
         }
 
-        /// <summary>
-        /// Tüm ürünleri getirir.
-        /// </summary>
+        
         /// <returns>Product listesi.</returns>
         public List<Product> GetAll()
         {
             return _products;
         }
 
-        /// <summary>
-        /// Yeni ürün ekler.
-        /// </summary>
+        
         /// <param name="product">Eklenecek ürün.</param>
         public void Add(Product product)
         {
@@ -38,9 +32,7 @@ namespace DomTedarikWinFormApp.Services
             _products.Add(product);
         }
 
-        /// <summary>
-        /// Var olan ürünü günceller.
-        /// </summary>
+        
         /// <param name="index">List içindeki indeks.</param>
         /// <param name="product">Güncellenmiş ürün.</param>
         public void Update(int index, Product product)
@@ -53,9 +45,6 @@ namespace DomTedarikWinFormApp.Services
             _products[index] = product;
         }
 
-        /// <summary>
-        /// İndekse göre ürünü siler.
-        /// </summary>
         /// <param name="index">List içindeki indeks.</param>
         public void Delete(int index)
         {
@@ -65,9 +54,7 @@ namespace DomTedarikWinFormApp.Services
             _products.RemoveAt(index);
         }
 
-        /// <summary>
-        /// Ürün listesini belirtilen dosya yoluna XML formatında yazar.
-        /// </summary>
+        
         /// <param name="filePath">XML dosyası için tam yol.</param>
         public void ExportToXml(string filePath)
         {

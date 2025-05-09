@@ -1,28 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\",
+  "WorkspaceRootPath": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DomTedarikWinFormApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|c:\\users\\i-life\\onedrive\\desktop\\dosyalar\\domsal\u00E7a\\domtedarikwinformapp\\domtedarikwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|solutionrelative:domtedarikwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|c:\\users\\i-life\\onedrive\\desktop\\dosyalar\\domsal\u00E7a\\domtedarikwinformapp\\domtedarikwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\domtedarikwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|solutionrelative:domtedarikwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|c:\\users\\i-life\\onedrive\\desktop\\dosyalar\\domsal\u00E7a\\domtedarikwinformapp\\domtedarikwinformapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|solutionrelative:domtedarikwinformapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\domtedarikwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|solutionrelative:domtedarikwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|c:\\users\\i-life\\onedrive\\desktop\\dosyalar\\domsal\u00E7a\\domtedarikwinformapp\\domtedarikwinformapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\domtedarikwinformapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|solutionrelative:domtedarikwinformapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|c:\\users\\i-life\\onedrive\\desktop\\dosyalar\\domsal\u00E7a\\domtedarikwinformapp\\domtedarikwinformapp\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|1e78f8db-6c07-4d61-a18f-7514010abd56"
+      "AbsoluteMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\domtedarikwinformapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F09FAF-0921-456D-8204-F2EBD796002A}|DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj|solutionrelative:domtedarikwinformapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,40 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 165,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DomTedarikWinFormApp",
-              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj",
-              "RelativeDocumentMoniker": "DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj",
-              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj",
-              "RelativeToolTip": "DomTedarikWinFormApp\\DomTedarikWinFormApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-09T21:52:00.168Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Services\\ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "DomTedarikWinFormApp\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Services\\ProductService.cs",
               "RelativeToolTip": "DomTedarikWinFormApp\\Services\\ProductService.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAswG0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAawC8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T21:01:39.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DomTedarikWinFormApp\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Models\\Product.cs",
               "RelativeToolTip": "DomTedarikWinFormApp\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs",
               "RelativeDocumentMoniker": "DomTedarikWinFormApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs",
               "RelativeToolTip": "DomTedarikWinFormApp\\Form1.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAEwHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAIwH4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T20:18:52.659Z",
               "EditorCaption": ""
@@ -89,9 +71,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs",
               "RelativeDocumentMoniker": "DomTedarikWinFormApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Desktop\\Dosyalar\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\I-Life\\OneDrive\\Documents\\GitHub\\DomSalca_E_Commerce_MVC_App\\DomSal\u00E7a\\DomTedarikWinFormApp\\DomTedarikWinFormApp\\Form1.cs [Design]",
               "RelativeToolTip": "DomTedarikWinFormApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T19:50:37.512Z",

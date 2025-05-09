@@ -29,7 +29,7 @@ namespace DomTedarikWinFormApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Örnek ürünleri ekle
+
             _productService.Add(new Product { ProductName = "Kalem", Price = 10.5m, Quantity = 100 });
             _productService.Add(new Product { ProductName = "Defter", Price = 20m, Quantity = 50 });
             _productService.Add(new Product { ProductName = "Silgi", Price = 5m, Quantity = 200 });
@@ -60,9 +60,9 @@ namespace DomTedarikWinFormApp
             };
 
             _productService.Add(newProduct);
-            ListeyiYenile(); // Bu metodu aşağıda yazacağız
+            ListeyiYenile(); 
 
-            // Kutuları temizle
+            
             tb_urunAdi.Clear();
             nud_fiyat.Value = 0;
             nud_miktar.Value = 0;
